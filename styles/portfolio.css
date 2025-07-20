@@ -1,0 +1,148 @@
+nav ul{
+    display: flex;
+    /* nav ul etar agea (.) dea lageinai kn  */
+    /* gap: 400px; */
+    align-items: center;
+    /* button er modhhe style korar karone ektu upore chole gecehe ty align-items center dea lagse  */
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; default bhabe 400 dhore nibe*/
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-02{
+    color: #474747;
+}
+.btn-primary{
+    background-color:#FD6E0A;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 15px;
+    /* border-color:antiquewhite; */
+    border:none;
+}
+
+.shared-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    /* kono jayga thke color code copy korle seta boshanor agea # dete hbe  */
+}
+.section-description{
+    font: size 18px;
+    font-weight:bold;
+    color:  #757575;
+}
+
+.common-bg-clr{
+    background-color: #FFF8F3;
+    /* secondary-bg likhse ei jygata k ph & header,main er about section tag a,footer a cls er modhheadd korche */
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    /* url(../) bracket er modhhe''dyea lagbe trpor jeta dekhaici cmnt tag a orkm vabe likhle image folder ashbe */
+    background-repeat: no-repeat;
+    /* uporer eta nah dele ek e chobi virtically barbar ashtbe */
+    background-position: top left, bottom right;
+
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    /* align-items: center; eta deyar karone Mary ebong nav er object gulh(portfolio,blog,Hire me butto) ek line borabor eshe porbe(virticle borabor center hye jabe )  */
+    justify-content: space-between;
+    /* *important */
+    /* justify-content: space-between; eta onk importanr eta korar karonei h2 tag ermary ar ul er li tag er element gulor majhe shundor kore gap chole esheche */
+    margin: 0px 100px ;
+    /* upore margin deaar karone mary and nav element ulo upore 50px gap hoice ar leaft 7 right a 100px hoice */
+
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    /* important */
+    margin-right: 51px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner styles */
+.banner{
+    
+    /* ei class tah img & banner-contenet er main tag echarao er modhhe aro class ache but oi cls gulo amr imagea ar title mane likha gulake pashapashi boshanor khetre kaj a ashbenh */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-between; image ar pasher tect gular majhe sapce hoicey  *important */
+    margin: 0 38px 0 230px;
+    
+}
+.banner-content{
+    max-width: 580px ;
+    
+}
+.banner-greetings{
+    font: weight 600px;
+    /* semi-bold=600px */
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 300px;
+}
+.banner-img{
+    width:580px;
+    height: 676px;
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* main deyar agea (.)dea lagbenh karon eta ekta body tag */
+
+ }
+
+
+/* about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    /* magrin-top eta heder box er sathe about box er modhhe gap make korche  */
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 22px;
+}
+ /* main styles */
+
+
+.item-description{
+    font-weight: bold;
+    
+}
