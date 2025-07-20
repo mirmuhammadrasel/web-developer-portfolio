@@ -42,7 +42,10 @@ nav ul{
     font-weight:bold;
     color:  #757575;
 }
-
+ 
+.text-center{
+    text-align: center;
+}
 .common-bg-clr{
     background-color: #FFF8F3;
     /* secondary-bg likhse ei jygata k ph & header,main er about section tag a,footer a cls er modhheadd korche */
@@ -121,23 +124,25 @@ main{
     /* main deyar agea (.)dea lagbenh karon eta ekta body tag */
 
  }
-
+  
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    /* margin-bottom deyar karone js,react,nodejs mane caard gulr niche ektu space hoicey */
+}
 
 /* about styles*/
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
     /* magrin-top eta heder box er sathe about box er modhhe gap make korche  */
 }
 .about-items{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
-    margin-right: 50px;
-    margin-bottom: 0px;
-    margin-left: 22px;
+   
 }
  /* main styles */
 
@@ -145,4 +150,15 @@ main{
 .item-description{
     font-weight: bold;
     
+}
+/* Skills Section */
+.skills-container{
+    display: flex;
+    gap: 20px
+    ;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
 }
